@@ -19,4 +19,13 @@ To successfully run the project, it is required to have the following software a
 * face_recognition Library
 
 
+## How the Code Works
+The project was designed to offer a web user interface that works inside the localhost. To create a simple web UI, Flask was used. The Flask project has the following structure:
+```
+static/images Folder: Contains the two input images as well as the output image after the script is executed.
+templates Folder: Contains the HTML files for displaying different pages.
+faceCompare.py File: The script to execute the web UI and perform face recognition
+```
+### Recognizing faces using face_recognition library
+
 
