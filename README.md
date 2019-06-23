@@ -36,3 +36,10 @@ Making use of the face_encodings() function provided by the face_recognition lib
 _Facial Landmarks_
 
 
+## Important Notes
+This project was done with a time constraint. Note that it can be improved greatly. The web interface is kept very minimalistic with only a few fields and buttons. Also the image files that are used as inputs **must** already exist inside the scripts/images directory. There are better ways to execute such operations such as file upload methods but due to time constraints, it was better to follow a simpler approach.
+
+## Acknowledgments
+During the making of this project, a notable mention should be made to:
+* Adam Geitgey for providing the face_recognition library
+
