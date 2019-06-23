@@ -6,6 +6,7 @@ This project was created to demonstrate a face recognition task to match faces g
 ```
 Input 1: An image file containing only the face to be searched.
 Input 2: Another image with a variety of different faces.
-Output: The image for input 2 will be shown with all the detected faces surrounded by a bounding box. If a match occurs, then the matched face is shown as having a green bounding box to highlight.
+Output: The image for input 2 will be shown with all the detected faces surrounded by a bounding box. 
+If a match occurs, then the matched face is shown as having a green bounding box to highlight.
 
 ```
