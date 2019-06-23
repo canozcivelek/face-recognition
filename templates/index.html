@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face Recognition Project</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.indigo-pink.min.css">
+
+    <!-- Your styles -->
+    <link rel="stylesheet" href="styles/main.css">
+  </head>
+  <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
+      <div class="container">
+          <h1>Face Recognition</h1>
+          <p>Welcome to the project! This project is created to demonstrate
+             a face recognition application.
+          <p>Fill in the first field with the
+             name of an image file containing face to search (i.e. face.jpg),</p>
+        <p>then another image file name (i.e. search.jpg) to see if the face being searched exists.</p>
+          <form method="POST">
+              <p>Enter image names:</p><br>
+              <input name="path1">
+              <p></p>
+              <input name="path2">
+              <input type="submit">
+              <p></p>
+              <img src="{{ user_image1 }}" alt="User Image1">
+              <p>Known Image</p>
+              <img src="{{ user_image2 }}" width="50%" height="50%" alt="User Image2">
+              <p>Unknown Image</p>
+          </form>
+      </div>
+
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-tc5iqib027qvyjsmfhjomalkfuwvxzxupncja7l2mcwnipg9mgcd8wgnicpd7txa" crossorigin="anonymous"></script>
+
+  </body>
+</html>
