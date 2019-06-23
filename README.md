@@ -8,5 +8,15 @@ Input 1: An image file containing only the face to be searched.
 Input 2: Another image with a variety of different faces.
 Output: The image for input 2 will be shown with all the detected faces surrounded by a bounding box. 
 If a match occurs, then the matched face is shown as having a green bounding box to highlight.
-
 ```
+
+#### Prerequisites
+To successfully run the project, it is required to have the following software and their respective versions installed:
+* Python 3.6 or higher (https://www.python.org/downloads/)
+* Flask 1.0 or higher (http://flask.pocoo.org/)
+* OpenCV library
+* Numpy Library
+* face_recognition Library
+
+
+
